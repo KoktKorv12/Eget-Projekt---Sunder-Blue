@@ -1,0 +1,107 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+}
+
+nav{
+    width: 100%;
+    background-color:none;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    text-align: center;
+    padding: 1rem;
+    font-size: 20px;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+
+}
+
+a{
+    padding: 20px;
+    width: 100px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+}
+
+#home{
+    height: 1000px;
+    background-color: white;
+    display: inline-block;
+    width: 100%;
+}
+
+#spotify{
+    height: 1000px;
+    background-color: blue;
+    display: inline-block;
+    width: 100%;
+}
+
+#merchandise{
+    height: 1000px;
+    background-color: orange;
+    display: inline-block;
+    width: 100%;
+}
+
+#social-media{
+    height: 1000px;
+    background-color: yellow;
+    display: inline-block;
+    width: 100%;
+}
+
+#contacts{
+    height: 1000px;
+    background-color:red;
+    display: inline-block;
+    width: 100%;
+}
+
+h1{
+    margin: 100px;
+    text-align: center;
+    padding: 0;
+    font-size: 50px;
+}
+
+h2{
+    margin: 100px;
+    padding: 0;
+}
+
+.page1-header .release{
+    margin: 100px;
+    text-align: center;
+    padding: 0;
+}
+
+.songname{
+    letter-spacing: 5px;
+    font-size: 60px;
+}
+
+.date{
+    font-weight: 400;
+}
+
+.page1-header{
+    font-size: 200px;
+}
+
