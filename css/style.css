@@ -102,6 +102,137 @@ h2{
 }
 
 .page1-header{
-    font-size: 200px;
+    font-size: 180px;
 }
 
+@media screen and (max-width: 1030px) {
+
+    h2{
+        margin: 70px;
+        padding: 0;
+        margin-top: 150px;
+    }
+
+    .page1-header{
+        font-size: 80px;
+
+    }
+
+    .page1-header .release{
+        margin-left: 50px;
+        text-align: center;
+        padding: 0;
+    }
+    
+    .songname{
+        letter-spacing: 5px;
+        font-size: 30px;
+    }
+    
+    .date{
+        font-weight: 400;
+    }
+
+    #home{
+        height: 800px;
+        background-color: white;
+        display: inline-block;
+        width: 100%;
+    }
+    
+    #spotify{
+        height: 800px;
+        background-color: blue;
+        display: inline-block;
+        width: 100%;
+    }
+    
+    #merchandise{
+        height: 800px;
+        background-color: orange;
+        display: inline-block;
+        width: 100%;
+    }
+    
+    #social-media{
+        height: 800px;
+        background-color: yellow;
+        display: inline-block;
+        width: 100%;
+    }
+    
+    #contacts{
+        height: 800px;
+        background-color:red;
+        display: inline-block;
+        width: 100%;
+    }
+
+    h1{
+        margin: 70px;
+        text-align: center;
+        padding: 0;
+        font-size: 30px;
+    }
+
+    nav{
+        width: 100%;
+        background-color:none;
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        text-align: center;
+        padding: 1rem;
+        font-size: 15px;
+    }
+    
+    ul{
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+    
+    li{
+        display: inline-block;
+    
+    }
+    
+    a{
+        padding: 40px;
+        width: 100px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: black;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    .page1-header{
+        font-size: 50px;
+    }
+
+    .page1-header .release{
+        margin-left: 10px;
+        text-align: center;
+        padding: 0;
+    }
+    
+    .songname{
+        letter-spacing: 5px;
+        font-size: 30px;
+    }
+    
+    .date{
+        font-weight: 400;
+    }
+
+
+    h2{
+        margin: 50px;
+        padding: 0;
+        margin-top: 150px;
+    }
+
+}
