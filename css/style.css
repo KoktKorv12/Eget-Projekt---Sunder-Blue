@@ -236,3 +236,38 @@ h2{
     }
 
 }
+
+/*animation*/
+
+#fadeIn {
+    animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+ul li a:hover{
+    color: lightblue;
+    transition: ease-in 0.2s;
+}
+
+ul li a:focus{
+    color: lightblue;
+}
+
+/*Hamurger menu*/
+@media screen and (max-width: 870px){
+    .nav{
+        display: none;
+    }    
+}
