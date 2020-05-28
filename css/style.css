@@ -48,30 +48,35 @@ a{
 
 #spotify{
     height: 1000px;
-    background-color: blue;
+    background-color: lightgrey;
     display: inline-block;
     width: 100%;
 }
 
 #merchandise{
     height: 1000px;
-    background-color: orange;
+    background-color: white;
     display: inline-block;
     width: 100%;
 }
 
 #social-media{
     height: 1000px;
-    background-color: yellow;
+    background-color: lightgrey;
     display: inline-block;
     width: 100%;
 }
 
 #contacts{
     height: 1000px;
-    background-color:red;
+    background-color: white;
     display: inline-block;
     width: 100%;
+}
+
+.menu-btn_burger{
+    padding: 1em;
+    display: none;
 }
 
 h1{
@@ -142,28 +147,28 @@ h2{
     
     #spotify{
         height: 800px;
-        background-color: blue;
+        background-color: lightgrey;
         display: inline-block;
         width: 100%;
     }
     
     #merchandise{
         height: 800px;
-        background-color: orange;
+        background-color: white;
         display: inline-block;
         width: 100%;
     }
     
     #social-media{
         height: 800px;
-        background-color: yellow;
+        background-color: lightgrey;
         display: inline-block;
         width: 100%;
     }
     
     #contacts{
         height: 800px;
-        background-color:red;
+        background-color: white;
         display: inline-block;
         width: 100%;
     }
@@ -192,9 +197,16 @@ h2{
         list-style: none;
     }
     
+
+    /*Hamurger menu*/
     li{
-        display: inline-block;
+        display: none;
+    }
+
+    .menu-btn_burger{
     
+        display: inline-block;
+        padding: 1em;
     }
     
     a{
@@ -265,9 +277,4 @@ ul li a:focus{
     color: lightblue;
 }
 
-/*Hamurger menu*/
-@media screen and (max-width: 870px){
-    .nav{
-        display: none;
-    }    
-}
+
