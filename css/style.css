@@ -204,7 +204,8 @@ h2{
     }
 
     .menu-btn_burger{
-    
+        position: absolute;
+        right: 10px;
         display: inline-block;
         padding: 1em;
     }
@@ -233,18 +234,54 @@ h2{
     
     .songname{
         letter-spacing: 5px;
-        font-size: 30px;
+        font-size: 25px;
     }
     
     .date{
         font-weight: 400;
+        font-size: 17px;
     }
 
 
     h2{
-        margin: 50px;
+        margin: 20px;
         padding: 0;
-        margin-top: 150px;
+        margin-top: 50px;
+    }
+
+    #home{
+        height: 600px;
+        background-color: white;
+        display: inline-block;
+        width: 100%;
+    }
+    
+    #spotify{
+        height: 600px;
+        background-color: lightgrey;
+        display: inline-block;
+        width: 100%;
+    }
+    
+    #merchandise{
+        height: 600px;
+        background-color: white;
+        display: inline-block;
+        width: 100%;
+    }
+    
+    #social-media{
+        height: 600px;
+        background-color: lightgrey;
+        display: inline-block;
+        width: 100%;
+    }
+    
+    #contacts{
+        height: 600px;
+        background-color: white;
+        display: inline-block;
+        width: 100%;
     }
 
 }
