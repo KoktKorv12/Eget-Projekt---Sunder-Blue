@@ -10,7 +10,6 @@ body{
 
 nav{
     width: 100%;
-    background-color:none;
     overflow: hidden;
     position: fixed;
     top: 0;
@@ -182,7 +181,6 @@ h2{
 
     nav{
         width: 100%;
-        background-color:none;
         overflow: hidden;
         position: fixed;
         top: 0;
@@ -296,11 +294,9 @@ h2{
     from {
         opacity: 0;
         -webkit-transform: translate3d(0, -100%, 0);
-        transform: translate3d(0, -100%, 0);
     }
     to {
         opacity: 1;
-        -webkit-transform: none;
         transform: none;
     }
 }
