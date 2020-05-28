@@ -8,4 +8,4 @@ Jag har jobbat med rensposivitetet, det var oerhört jobbigt gför att jag gjord
 jag har någronlunda lyckats med det behöver mer finslipning.
 
 # 2020 - 05 - 28
-Idag så fixade jag min meny, den funkar inte för tillfället men den syns bara på mobil/ipad version av hemsidan. Jag fixade också responsiviteten på hemsidan.
+Idag så fixade jag min meny, den funkar inte för tillfället men den syns bara på mobil/ipad version av hemsidan. Jag fixade också responsiviteten på hemsidan. Eftersom att detta är sista lektionen så ska jag gå igenom checklistan för webbplatsen och validera min kod.
